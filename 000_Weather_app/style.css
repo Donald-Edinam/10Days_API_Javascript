@@ -1,0 +1,19 @@
+body{
+    background: url("img/img1.jpg");
+    background-size: cover;
+}
+
+#grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100vh;
+    color: aliceblue;
+}
+
+#weather-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
