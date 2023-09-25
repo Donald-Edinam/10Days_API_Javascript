@@ -10,7 +10,7 @@ async function getData(city){
         const response = await fetch(apiUrl);
         const data = await response.json();
     
-        console.log(data[0])
+        console.log(data[0].Type)
     } catch (error) {
         alert("Something went wrong, Check your internet connection and try again")
     }
